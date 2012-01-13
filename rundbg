@@ -1,3 +1,5 @@
+#The following is taken directly from the url below
+#http://atnan.com/blog/2011/11/17/enabling-remote-debugging-via-private-apis-in-mobile-safari/
 #Script to enable remote debugger on port 9999 for mobile safari
 #Capture the Process ID of the Mobile Safari app in the Simulator
 MobileSafari_PID=$(ps x | grep "MobileSafari" | grep -v grep | awk '{ print $1 }')
